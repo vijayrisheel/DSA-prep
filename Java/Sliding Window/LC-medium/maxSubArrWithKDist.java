@@ -1,3 +1,9 @@
+// https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+
+// Given a string, find the length of the longest substring in it with no more than K distinct
+// characters.
+// You can assume that K is less than or equal to the length of the given string.
+
 public int longestSubStringWithKdist(String s, int k) {
     int windowStart = 0;
     int windowEnd = 0;

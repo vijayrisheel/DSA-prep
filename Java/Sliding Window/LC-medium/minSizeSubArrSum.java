@@ -4,10 +4,6 @@
 // contiguous subarray whose sum is greater than or equal to ‘target’.
 // Return 0 if no such subarray exists.
 
-#include <bits/stdc++.h>
-
-using namespace std;
-
 double minSubArrayLen(int[] nums, int target) {
     int n = nums.length;
     if(n == 1) {
@@ -33,7 +29,7 @@ double minSubArrayLen(int[] nums, int target) {
     return res;
 }
 
-int main() {
+public static void main(String[] args) {
     int[] v = {2,3,1,2,4,3};
     int target = 7;
     //Expected output: 2
