@@ -17,10 +17,10 @@ This is esentially longest substring with 2(No of baskets) max chars.
 */
 
 int totalFruit(int[] fruits) {
-        int n = fruits.length();
+        int n = fruits.length;
         int windowStart = 0;
         int windowEnd = 0;
-        Map<Integer, Integer> umap;
+        Map<Integer, Integer> umap = new HashMap<>();
         int res = 0;
 
         while(windowEnd < n) {
