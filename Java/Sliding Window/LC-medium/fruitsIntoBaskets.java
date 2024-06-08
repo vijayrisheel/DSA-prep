@@ -25,7 +25,7 @@ int totalFruit(int[] fruits) {
 
         while(windowEnd < n) {
             int rightFruit = fruits[windowEnd];
-            umap.put(rightFruit, umap.getOrDefault(rightFruit, 0));
+            umap.put(rightFruit, umap.getOrDefault(rightFruit, 0)+1);
 
             while(umap.size() > 2) {
                 int leftFruit = fruits[windowStart];
